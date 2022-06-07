@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MultiplayerGameSelector"
+    android:background="@color/primary"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/headTV"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/primary1"
+        android:gravity="center"
+        android:text="TicTacToe"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="195dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/round_outline_nocolor"
+        android:hint="Enter Code"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/primary1"
+        android:textSize="24sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/round_outline"
+        android:text="Create"
+        android:textColor="@color/primary" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="395dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/round_outline"
+        android:text="Join"
+        android:textColor="@color/primary" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/idPBLoad"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

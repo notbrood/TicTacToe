@@ -20,5 +20,9 @@ class MainActivity : AppCompatActivity() {
             intent = Intent(this, GamePlay::class.java)
             startActivity(intent)
         }
+        online.setOnClickListener {
+            intent = Intent(this, MultiplayerGameSelector::class.java)
+            startActivity(intent)
+        }
     }
 }

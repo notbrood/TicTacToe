@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Amann/AndroidStudioProjects/TicTacToe/app/src/main/res/drawable/round_outline.xml" value="0.1445" />
+        <entry key="..\:/Users/Amann/AndroidStudioProjects/TicTacToe/app/src/main/res/drawable/round_outline_nocolor.xml" value="0.1445" />
         <entry key="..\:/Users/Amann/AndroidStudioProjects/TicTacToe/app/src/main/res/layout/activity_game_play.xml" value="0.176" />
         <entry key="..\:/Users/Amann/AndroidStudioProjects/TicTacToe/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/Amann/AndroidStudioProjects/TicTacToe/app/src/main/res/layout/activity_multiplayer_game_selector.xml" value="0.264" />
+        <entry key="..\:/Users/Amann/AndroidStudioProjects/TicTacToe/app/src/main/res/layout/activity_online_multiplayer_game.xml" value="0.2" />
       </map>
     </option>
   </component>

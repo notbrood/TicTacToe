@@ -152,7 +152,7 @@ class GamePlay : AppCompatActivity() {
         disableReset()
         val build = AlertDialog.Builder(this)
         build.setTitle("Game Over")
-        build.setMessage("PLayer 1 hsa won the game.."+"\n\n"+"Do you want to play again")
+        build.setMessage("Player 1 has won the game.."+"\n\n"+"Do you want to play again")
         build.setPositiveButton("Ok") { dialog, which ->
             resetBoard()
         }
